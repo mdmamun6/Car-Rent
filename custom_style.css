@@ -1,0 +1,200 @@
+.service-description{
+    text-align: justify;
+}
+.vert-center-text {
+    position: absolute;
+    top: 41%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vert-center-text p{
+    
+    width: 100%;
+    max-width: 40rem;
+}
+ 
+ 
+ .vert-center-text h1 { 
+     color: white;
+     font-size: 3rem;
+ }
+ 
+ .vert-center-container {
+   position:relative;
+ }
+
+ .humberger-menu-icons{
+     font-size: 36px;
+    color: white;
+    background: transparent !important;
+   
+
+ }
+
+.navbar-toggler{
+    background-color: transparent !important;
+}
+.btns {
+    color: white;
+    border: none !important;
+  }
+
+.btns:focus {
+    outline: none;
+    box-shadow: none;
+    }
+
+.offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1045;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    color: white;
+    visibility: hidden;
+    background: var(--main-color);
+	background: -webkit-gradient(left bottom, left bottom, color-stop(0, var(--main-color)), color-stop(100%, #012A68));
+	background: -webkit-linear-gradient(top, var(--main-color) 0, #012A68 100%);
+	background: -webkit-gradient(linear, left top, left bottom, from(var(--main-color)), to(#012A68));
+	background: linear-gradient(to top, var(--main-color) 0, #012A68 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--main-color)', endColorstr='#012A68', GradientType=0)
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform .3s ease-in-out;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:hover{
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    color: black;
+    padding: 10px;
+}
+
+.btn-close {
+    color: white;
+}
+.canvas-close-button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 25px;
+    transition: 0.4s ease-in-out;
+}
+.canvas-close-button:hover{
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.type-wrap{
+    color: var(--main-color) !important;
+}
+
+.main-btn{
+    color: blue;
+}
+.main-btn:hover {
+    color: white;
+    background-color: blue;
+}
+
+.btns{
+    color: white;
+    border: 1px solid blue;
+    background-color: none !important;
+}
+
+.btns:hover{
+    color: white;
+    border: none;
+    margin-left: 5px;
+    background-color: rgb(16, 16, 170) !important;
+}
+#banner-buttons{
+    background-color: blue !important;
+}
+#banner-buttons:hover{
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    background-color: rgb(24, 24, 173) !important;
+}
+#texting-btn:hover{
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    background-color: rgb(24, 24, 173) !important;
+}
+.texting-btn{
+    color: blue;
+    border: 1px solid black;
+}
+.banner-buttons {
+    border: 1px solid white !important;
+}
+.banner-2-buttons{
+    background-color: transparent;
+    color: blue;
+}
+
+
+.modal-content {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    /* color: var(--bs-modal-color); */
+    /* pointer-events: auto; */
+    background-color: transparent;
+    /* background-clip: padding-box; */
+    border: none;
+    /* border-radius: var(--bs-modal-border-radius); */
+    outline: 0;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: none;
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+}
+
+.btn-close {
+    color: #000;
+    background-color: blue;
+}
+
+
+.main-btn:before {
+	background-color: #0507F7 !important;
+
+}
+
+.single-service:hover{
+    background: var(--main-color);
+    background: -webkit-gradient(left bottom, left bottom, color-stop(0, var(--main-color)), color-stop(100%, #012A68));
+    background: -webkit-linear-gradient(top, var(--main-color) 0, #012A68 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--main-color)), to(#012A68));
+    background: linear-gradient(to top, var(--main-color) 0, #012A68 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--main-color)', endColorstr='#012A68', GradientType=0);
+}
